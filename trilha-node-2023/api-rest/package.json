@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx --watch src/server.ts",
-    "lint": "eslint src --ext .ts --fix"
+    "lint": "eslint src --ext .ts --fix",
+    "knex": "node --no-warnings --import tsx ./node_modules/knex/bin/cli.js"
   },
   "keywords": [],
   "author": "",
@@ -18,8 +19,10 @@
   },
   "dependencies": {
     "@types/node": "^20.14.10",
+    "dotenv": "^16.4.5",
     "fastify": "^4.28.1",
     "knex": "^3.1.0",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "zod": "^3.23.8"
   }
 }
