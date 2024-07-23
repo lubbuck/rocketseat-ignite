@@ -18,6 +18,7 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
+    "@fastify/cookie": "^9.3.1",
     "@types/node": "^20.14.10",
     "dotenv": "^16.4.5",
     "fastify": "^4.28.1",
